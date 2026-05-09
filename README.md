@@ -11,7 +11,7 @@ Tidak seperti aplikasi CRUD pada umumnya, API ini menangani *redirect* URL hanya
 * **Analitik Asynchronous:** Pencatatan riwayat klik (IP Address, User Agent, dan Waktu) diproses menggunakan Laravel Queues di latar belakang (*background job*).
 * **Statistik Canggih:** Endpoint analitik dibangun menggunakan *query* Eloquent yang sangat dioptimasi (*Eager Loading* dengan pembatasan/ *constraints* khusus).
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Framework:** Laravel 13 (PHP 8.3+)
 * **Database:** MySQL
